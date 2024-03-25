@@ -1,0 +1,81 @@
+body{
+background: linear-gradient(darkred,rgb(207, 194, 194));
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+
+.central{
+background: rgb(209, 95, 95);
+height: 500px;
+width: 500px;
+margin: auto;
+border-radius: 10%;
+flex-direction: column ;
+
+}
+
+
+.caixa{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;}
+
+
+
+input{
+width: 200px;
+height: 30px;
+background: rgb(175, 166, 166);
+outline: none;
+border: none;
+border-radius: 5%;
+padding: 8px;
+
+}
+
+
+.caixabt{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 30px;
+}
+button{
+cursor: pointer;
+font-size: 22px;
+border-radius: 6px;
+background: white;
+font-weight: bold;
+border: none;
+}
+
+.central p{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+ .magreza
+ {color: blue}
+ .pesoNormal{
+color: green;
+ }
+ .acimaDoPeso{
+color: orange;
+ }
+ .obesidade{
+color: red;
+ }
