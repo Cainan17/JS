@@ -1,0 +1,57 @@
+body{
+background: linear-gradient(rgb(0, 174, 255),rgb(0, 255, 234), rgb(0, 174, 255), rgb(19, 199, 19), rgb(5, 212, 98)) ;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
+
+
+
+.caixa {
+height: 600px;
+width: 600px;
+background: white;
+padding: 8px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 50px;
+flex-direction: column;
+
+}
+
+
+
+ #silhueta {
+    
+   height: 200px;
+    background:rgb(0, 102, 255);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    justify-content: center;
+    
+    
+}
+.caixa button {
+    height: 30px;
+    width: 100px;
+    background:rgb(0, 102, 255);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 8px;
+    cursor:pointer; 
+   margin: 25px;
+   
+    
+}

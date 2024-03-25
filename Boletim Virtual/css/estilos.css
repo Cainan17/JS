@@ -1,0 +1,76 @@
+body{
+background: linear-gradient( rgb(0, 102, 255),rgb(0, 102, 255),
+rgb(225, 0, 255), rgb(255, 0, 98),rgb(70, 2, 83));
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#titulo{
+font-size: 30px;
+
+}
+
+
+.central{
+width: 350px;
+background: white;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+box-shadow: 1px 2px 10px rgb(38, 1, 80);
+
+}
+
+.central p{
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+text-transform: uppercase;
+text-shadow: 1px 2px 5px rgba(23, 1, 43, 0.767);
+}
+
+.central input{
+padding: 13px 20px;
+border-radius: 8px;
+border: none;
+background: rgba(119, 136, 153, 0.568);
+box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.726);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+font-weight: bold;
+color: rgb(40, 4, 73);
+}
+
+.central button{
+padding: 12px 22px;
+background: rgba(65, 0, 139, 0.712);
+color:white;
+border: none;
+margin: 15px;
+border-radius: 8px;
+font-size: 16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+cursor: pointer;
+box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.726);
+
+}
+
+.aprovado{
+color: green;
+text-shadow: green;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+}
+.reprovado{
+color: red;
+text-shadow: red;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+}
+ 

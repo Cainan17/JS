@@ -1,0 +1,47 @@
+body{
+background: url("/images/z madrugada.gif") ;
+background-size: cover;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.central{
+
+width: 500px;
+padding: 30px;
+background: rgba(27, 27, 27, 0.575);
+border-radius: 7px;
+box-shadow: 1px 1px 10px darkred;
+
+}
+
+
+.central video{
+width: 100%;
+
+}
+
+.central .botoes button{
+background: rgb(139, 0, 0);
+color: white;
+padding: 10px 10px;
+border: none;
+border-radius: 8px;
+width: 68px;
+margin: 10px auto;
+cursor: pointer;
+transition: 0.4s;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 20px;
+}
+
+.central .botoes button:hover{
+background: rgb(0, 0, 43);
+box-shadow: 1px 2px 10px rgb(255, 255, 255);
+transform: scale(1.1);
+
+}

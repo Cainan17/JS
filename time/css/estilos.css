@@ -1,0 +1,74 @@
+body{
+height: 100vh;
+
+}
+
+
+
+
+.central{
+background: url('/images/campo.jpg');
+background-size: cover;
+height: 700px;
+
+}
+
+.time{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.time #bahia{
+ height: 220px;   
+position: absolute;
+top: 330px;
+left: 240px;
+animation: mexerBahia 9s infinite;
+}
+
+.time #vitoria{
+height: 260px;
+position: absolute;
+top: 300px;
+right: 100px;
+animation: mexerVitoria 9s infinite;
+}
+
+
+@keyframes mexerBahia{
+
+    0%{
+    top: 0px;
+    }
+
+    90%{
+     opacity: 90%;   
+    }
+
+    100%{
+    top: 500px;
+    opacity: 0%;
+    }
+
+
+}
+
+
+@keyframes mexerVitoria{
+
+
+0%{
+top: 400px;
+}
+
+90%{
+opacity: 90%;
+}
+
+100%{
+top: -50px;
+opacity: 0%;
+}
+}
